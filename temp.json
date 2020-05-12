@@ -1,0 +1,23 @@
+{
+    "info": {
+        "review": "./clio multisig review PROPOSER PROPOSAL",
+        "approve": "./clio multisig approve PROPOSER PROPOSAL '{'actor': 'APPROVER_ACC_NAME', 'permission': 'active'}' 400000000 -p APPROVER_ACC_NAME",
+        "list-approvals": "./clio get table eosio.msig PROPOSER approvals2 -L PROPOSAL_NAME -l 1"
+    },
+    "proposals": [
+        { 
+            "proposal": "updatesysa1",
+            "proposer": "lion4uxxfbqo",
+            "status": "open",             
+            "release": "1.0.1",
+            "release-url": "https://github.com/fioprotocol/fio/releases/tag/v1.0.1",
+            "wasm-sha256": "fe50cbf9a5fd98150b4626e50e80e8fb5de360c597240d2a9ffb4c6a8354ee04",
+            "contracts": [
+                {
+                    "account": "fio.address",
+                    "name": "fio.address"
+                }
+            ]
+        }
+    ]
+}
